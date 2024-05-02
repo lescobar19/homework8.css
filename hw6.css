@@ -1,0 +1,12 @@
+/* Laura Escobar April 30, 2024 */
+
+.box-model {
+    width: 280px;
+    height: 280px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}

@@ -1,0 +1,56 @@
+/*Laura Escobar April 30, 2024 */
+
+/* Step 1 */
+.card {
+    width: 80%;
+    height: 300px;
+}
+@media screen and(min-width: 1024px) {
+    .card {    
+      width: 800px;
+   }
+}
+/* Step 2 */
+.question-one {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .question-one {
+        flex-direction: row;
+    }
+}
+
+/* Step3 */
+.question-two {
+    width: 80%;
+    background-color: white;
+    color: black;
+    height: 300px; 
+}
+@media screen and (min-width: 1024px) {
+    .question.two {
+    width: 800px;
+    background-color: yellow;
+    } 
+}
+/* Step 4 */
+.question-three {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .question-three {
+        display-content: normal;
+    }
+}
+
+/* Step 5 */
+.question-four {
+    display: none;
+}
+@media (min-width: 768px) {
+    .question-four {
+        display: block;
+    }
+}

@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Magical Website</title>
+    <style>
+        /* Laura Escobar Date: 4/13/2024
+        /* Inline Styles */
+       .feature{
+        color:red;
+       }
+
+        /* ID Selectors */
+        #hero-section{
+            color:red;
+        }
+        .first{
+            color:brown;
+        }
+
+        /* Class Selectors */
+        .feature{
+            color:darkblue
+        }
+      
+
+        /* Type Selectors */
+        feature{
+            color:chartreuse;
+        }
+
+        /* Cascade */
+        feature{
+            color:darkslategrey !important;
+        }
+        feature{
+            color:fuchsia;
+        }
+
+        /* Inheritance */
+     div{
+        color:firebrick;
+     }   
+
+        /* Non-Inherited Properties */
+        div {background-color:yellow;}
+        
+        section {
+            border: 1px solid black;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <header id="hero-section">
+        <h1 class="heading" style="color:purple">Welcome to the Magical World!</h1>
+        <p>Experience wonders beyond imagination.</p>
+    </header>
+    
+    <section class="feature">
+        <h2>Levitation Act</h2>
+        <p>Witness objects defy gravity!</p>
+        <button class="btn">Book Now</button>
+    </section>
+    
+    <section class="feature">
+        <h2>Illusion Show</h2>
+        <p>Prepare to be dazzled by stunning illusions!</p>
+        <button class="btn">Book Now</button>
+    </section>
+
+    <!-- More magical sections can be added here -->
+</body>
+</html>

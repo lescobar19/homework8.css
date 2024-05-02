@@ -1,0 +1,44 @@
+/* Apply styles to all <h1> tags with a bold and eye-catching color*/
+h1 {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Apply a different distinct color to HTML elements with a specific class */
+.intro {
+    color: red;
+}
+
+.title {
+    color: pink;
+}
+
+/*Implement different colors to multiple <h1> tags with different classes */
+.one,.two{
+    color:purple;
+}
+
+/*Group Selectors*/
+.group-selector{
+    border: 2px solid #dd1f1f;
+    padding: 10px;
+    border-radius: 10px;
+}
+    special-element{
+        border-color:cyan;
+    }
+    .another-element {
+        border-style: dashed;
+    }
+/* The Universal Selector*/
+*{
+    margin: 10;
+    padding: 10;
+}
+
+/*Incorporate IDs in your CSS to style specific elements uniquely*/
+#main-content{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 25px pink;
+}

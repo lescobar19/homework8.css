@@ -1,0 +1,32 @@
+/* Laura Escobar April 30, 2024 */
+
+/* Line-Height */
+body {
+    line-height: 1.5;
+}
+  
+/* Spacing Letters */
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 4px;
+}
+  
+/* Text Transform */
+  h1 {
+    text-transform: uppercase; 
+  }
+/* Text Decoration */
+ a {
+text-decoration:underline
+}
+/* Text Alignment */
+h1 {
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+  }
